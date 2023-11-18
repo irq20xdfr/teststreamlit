@@ -21,5 +21,6 @@ def load_data(nrows):
 data_load_state = st.text('Loading data...')
 # Load 10,000 rows of data into the dataframe.
 data = load_data(10000)
+st.text(data[0])
 # Notify the reader that the data was successfully loaded.
 data_load_state.text('Loading data...done!')
